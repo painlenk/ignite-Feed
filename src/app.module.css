@@ -1,0 +1,21 @@
+.layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  grid-template-areas: "profile main";
+
+  max-width: 70rem;
+  margin: 2rem auto;
+}
+
+.profile {
+  grid-area: "profile";
+  border-radius: 8px;
+}
+
+main {
+  grid-area: "main";
+  margin-left: 2rem;
+  border: 1px solid blue;
+  border-radius: 8px;
+  background-color: var(--color-gray-600);
+}

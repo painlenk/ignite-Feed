@@ -1,0 +1,19 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 1.25rem 0;
+  text-align: center;
+  background-color: var(--color-gray-600);
+}
+
+.header strong {
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
